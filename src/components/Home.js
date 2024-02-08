@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import "./styles.css";
 import MobileCard from "./MobileCard";
 import { data } from "../constants/constant";
+import { Card } from "antd";
 const Home = () => {
   return (
     <div className="container">
-      <div
+      {/* <div
         style={{
           backgroundColor: "#D3D3D3",
           width: 1200,
@@ -26,7 +27,7 @@ const Home = () => {
             describe={item.describe}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

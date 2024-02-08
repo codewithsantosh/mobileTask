@@ -1,4 +1,4 @@
-.container {
+/* .container {
   background-color: black;
   width: "100%";
   height: 100vh;
@@ -91,4 +91,101 @@
   position: relative;
   right: 20px;
   top:15px
+} */
+.mainCard{
+  width: 500px;
+  height: 450px;
+  background-color: #123447;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: '100%';
+  height: 100vh;
+  background-color: blueviolet;
+}
+.buttoncontaine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonFirsrt {
+  width: 225px;
+  height: 40px;
+  background-color: rgb(19, 178, 37);
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+.buttonSecond {
+  width: 225px;
+  height: 40px;
+  background-color: rgb(130, 138, 131);
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+.firstInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.subnitButton {
+  width: 450px;
+  height: 50px;
+  background-color: rgb(19, 178, 37);
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  background-color: "123447";
+}
+.inputCotainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width:600px){
+  .container{
+    width: '100%';
+    height: '100%';
+  }
+  .mainCard{
+    width: 340px;
+    height: 500px;
+  }
+  .card{
+  }
+  .subnitButton{
+    width: 300px;
+  }
+  .buttonContainer{
+    margin-left: 30px;
+  }
+  .firstInput{
+    display: flex;
+    flex-direction: column;
+  }
+  #input{
+    margin-bottom: 20px;
+  }
+  .buttonContainer{
+    display: flex;
+    position: relative;
+    right: 28px;
+    width: 295px;
+  }
+  #input1{
+    position: relative;
+    bottom: 30px;
+  }
 }
